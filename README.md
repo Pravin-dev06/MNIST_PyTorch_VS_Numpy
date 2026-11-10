@@ -117,14 +117,14 @@ The PyTorch model uses the same layer dimensions:
 
 Training configuration:
 
-  Setting         Value
-  --------------- ------------------------------------
-  Loss function   `nn.CrossEntropyLoss()`
-  Optimizer       Adam
-  Learning rate   0.001
-  Batch size      64
-  Epochs          5
-  Device          CUDA when available; otherwise CPU
+  | Setting         | Value |
+  | :--- | :---: |
+  | Loss function   | `nn.CrossEntropyLoss()` |
+  | Optimizer       | Adam |
+  | Learning rate   | 0.001 |
+  | Batch size      | 64 |
+  | Epochs          | 5 |
+  | Device          | CUDA when available; otherwise CPU |
 
 PyTorch handles automatic differentiation through `loss.backward()` and
 updates the parameters through the optimizer.
