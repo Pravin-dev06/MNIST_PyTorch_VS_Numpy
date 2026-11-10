@@ -177,9 +177,6 @@ optimization conditions.
 
 ## Repository contents
 
-The exact notebook and source-file names may vary. The main project
-components are:
-
 -   NumPy implementation of MNIST data loading, preprocessing, model
     training, prediction, and evaluation.
 -   PyTorch implementation of the MNIST model, training, inference, and
