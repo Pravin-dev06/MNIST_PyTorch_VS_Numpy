@@ -138,12 +138,12 @@ state dictionary.
 The following are the test-set metrics printed by the supplied notebook
 after training.
 
-  Metric                 NumPy    PyTorch
-  ----------------- ---------- ----------
-  Accuracy            92.9751%   97.4615%
-  Macro recall        92.9751%   97.4615%
-  Macro precision     92.9798%   97.4750%
-  Macro F1-score      92.9626%   97.4629%
+| Metric | NumPy | PyTorch |
+| :--- | :---: | :---: |
+| Accuracy | 92.9751% | 97.4615% |
+| Macro recall | 92.9751% | 97.4615% |
+| Macro precision | 92.9798% | 97.4750% |
+| Macro F1-score | 92.9626% | 97.4629% |
 
 Metrics are calculated with **TorchMetrics** using the multiclass task
 and 10 classes. The NumPy model's probability predictions are converted
